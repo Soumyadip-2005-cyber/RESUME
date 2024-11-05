@@ -1,0 +1,142 @@
+/* Mobile */
+@media (max-width: 480px) {
+    body {
+        font-size: 1.5rem;
+        color: black;
+        font-family: "Itim", cursive;
+        font-weight: 400;
+        font-style: normal;
+        background: linear-gradient(270deg, #a1c4fd, #c2e9fb)
+    }
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+
+        font-size: 1.5rem;
+        color: black;
+        font-family: "Itim", cursive;
+        font-weight: 400;
+        font-style: normal;
+        background: linear-gradient(120deg, #ffafbd, #ffc3a0);
+    }
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+    body {
+        font-size: 1.5rem;
+        color: black;
+        font-family: "Itim", cursive;
+        font-weight: 400;
+        font-style: normal;
+        background: linear-gradient(180deg, #726142, #78beaf);
+
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Fredoka:wght@300..700&family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+
+h1 {
+    text-align: center;
+    color: gold;
+}
+
+h2 {
+    color: bisque;
+}
+
+strong {
+    color: darkviolet;
+}
+
+
+::selection {
+    background-color:whitesmoke;
+    color: red;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    position: relative;
+    border: black solid 2px;
+
+}
+
+.image-1{
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 200vw;
+    position: absolute;
+    top: 10px;
+    display: grid;
+    grid-area: repeat(4, 1fr);
+    
+
+}
+.image-2{
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: black solid 1px;
+    max-width: 200vw;
+    top: 10px;
+    left: 100px;
+    position: relative;
+    top: 20px;
+}
+.image-3{
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: black solid 1px;
+    max-width: 200vw;
+    top: 10px;
+    left: 100px;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+
+    
+
+}
+.image-4{
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: black solid 1px;
+    max-width: 200vw;
+    top: 10px;
+    left: 100px;
+    position: absolute;
+    top: 10px;
+
+    
+
+}
+
+
+/*.container:hover {
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    filter: brightness(50%);
+    transition:linear; 
+    transition-timing-function: 2s;
+    transform: rotate(270deg);
+
+}
+    */
+
+li {
+    text-align: center;
+    color: black;
+}
